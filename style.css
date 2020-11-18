@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pokemon {
+    flex-grow: 1;
+}
+
+.pokemon img {
+    border: 1px dashed lightblue;
+    border-radius: 6px;
+    margin-right: 4px;
+}
+
+#info {
+    border: 1px solid grey;
+    background-color: yellow;
+    opacity: 0;
+    align-self: flex-start;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    margin-top: 12px;
+}
+
+#info dt {
+    font-weight: bold;
+}
+
+.pokemon-info-heading {
+    text-transform: capitalize;
+}
+
+.opacity-on {
+    opacity: 1!important;
+}
